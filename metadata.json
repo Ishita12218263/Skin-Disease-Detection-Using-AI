@@ -1,0 +1,12 @@
+{
+  "name": "SkinDetect AI",
+  "description": "Professional AI-powered skin condition analysis tool for informational guidance. Features secure image capture and detailed dermatological insights.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "image_analysis",
+    "medical_guidance"
+  ]
+}
