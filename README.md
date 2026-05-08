@@ -1,5 +1,6 @@
 Hi, I'm Ishita
-🩺 AI-Powered Skin Disease Detection
+
+PROJECT - AI-Powered Skin Disease Detection
 
 An intelligent deep learning project that detects and classifies skin diseases from images using Artificial Intelligence and Computer Vision techniques.
 
