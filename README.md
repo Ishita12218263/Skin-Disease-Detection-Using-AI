@@ -1,20 +1,93 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Hi, I'm Ishita
+🩺 AI-Powered Skin Disease Detection
 
-# Run and deploy your AI Studio app
+An intelligent deep learning project that detects and classifies skin diseases from images using Artificial Intelligence and Computer Vision techniques.
 
-This contains everything you need to run your app locally.
+🚀 Project Overview
 
-View your app in AI Studio: https://ai.studio/apps/2da3a118-b7ba-4968-9dbf-b1ce340fac24
+Skin diseases are among the most common health conditions worldwide. Early detection can significantly improve treatment outcomes. This project leverages AI and deep learning to assist in identifying skin diseases from uploaded skin images.
 
-## Run Locally
+The model analyzes skin lesion images and predicts possible diseases with high accuracy using Convolutional Neural Networks (CNNs).
 
-**Prerequisites:**  Node.js
+✨ Features
+🔍 Skin disease image classification
+🤖 AI/Deep Learning powered predictions
+📷 Upload skin images for analysis
+📊 Confidence score for predictions
+🧠 Trained using medical image datasets
+🌐 Easy integration with web or mobile apps
+🛠️ Tech Stack
+Python
+TensorFlow / Keras
+OpenCV
+NumPy & Pandas
+Matplotlib
+Flask / Streamlit (optional frontend)
+🧪 Supported Diseases
 
+Examples may include:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Acne
+Eczema
+Psoriasis
+Melanoma
+Ringworm
+Vitiligo
+Basal Cell Carcinoma
+
+(Modify according to your trained dataset)
+
+📂 Project Structure
+skin-disease-detection/
+│
+├── dataset/
+├── models/
+├── notebooks/
+├── app.py
+├── train.py
+├── predict.py
+├── requirements.txt
+└── README.md
+⚙️ Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/skin-disease-detection.git
+cd skin-disease-detection
+
+Install dependencies:
+
+pip install -r requirements.txt
+▶️ Usage
+
+Run the application:
+
+python app.py
+
+Or train the model:
+
+python train.py
+📸 Sample Output
+Prediction: Melanoma
+Confidence: 96.4%
+🧠 Model Training
+
+The model is trained using CNN architecture on labeled dermatology datasets with preprocessing and augmentation techniques for improved accuracy.
+
+📈 Future Improvements
+Mobile application integration
+Real-time camera detection
+More disease categories
+Explainable AI visualizations
+Cloud deployment
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repository
+Create a new branch
+Commit changes
+Open a pull request
+📜 License
+
+This project is licensed under the MIT License.
